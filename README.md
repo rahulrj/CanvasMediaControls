@@ -9,3 +9,10 @@ As we all know well, even 1 Kb image is dangerous,read [this](http://jebware.com
 ## Screenshot
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;![](media_control.png)
+
+## How to use it?
+Just create an instance of `CustomControlView` and supply it with the required `IconType` along with the size of the view and you are done.
+```
+CustomControlView playView = new CustomControlView(this, 60, getDensity(), IconType.PLAY_BUTTON);
+```
+`Density` is required here to adjust the dimensions of the view according to the phone density.
